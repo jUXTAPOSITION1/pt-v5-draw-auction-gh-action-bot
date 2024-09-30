@@ -18,6 +18,7 @@ jobs:
   runCLI:
     name: Draw Auction Bot
     runs-on: ${{ matrix.os }}
+    if: false
     strategy:
       max-parallel: 1
       matrix:
